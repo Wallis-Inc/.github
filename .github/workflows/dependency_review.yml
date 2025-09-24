@@ -12,5 +12,6 @@ jobs:
         uses: actions/checkout@v4
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v4
-        # with:
-        #   fail-on-severity: critical 
+        with:
+          fail-on-severity: medium 
+          # fail-on-severity: critical 
